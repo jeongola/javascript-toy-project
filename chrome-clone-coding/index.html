@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Chrome</title>
+  </head>
+  <body>
+    <img class="background"/>
+    
+    <div class="wrapper">
+      <div class="weatherTitle">Today's weather</div>
+      <div id="weatherContainer">
+        <span></span>
+        <span></span>
+      </div>
+      <h1 class="clock"></h1>
+      <div class="input-group">
+        <div class="greetings"></div>
+        <form class="login_form">
+          <input required maxlength="15" class="username" type="text" placeholder="Write Your Name Here."></input>
+        </form>
+        <form class="todo_form">
+          <input required maxlength="50" class="todo" placeholder="Today's Most Important Schedule"></input>
+        </form>
+        <div class="todo_list"></div>
+      </div>
+    </div>
+
+    
+
+    <div class="quote-group">
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <script src="components/BackgroundImage.js"></script>
+    <script src="components/Clock.js"></script>
+    <script src="components/Weather.js"></script>
+    <script src="components/Quotes.js"></script>
+    <script src="components/TodoList.js"></script>
+    <script src="components/Login.js"></script>
+  </body>
+</html>
